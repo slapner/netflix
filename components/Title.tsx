@@ -1,13 +1,9 @@
-import Hey from "./subtitle";
+import Hey from './subtitle';
 
 export default function Title() {
   return (
-    <h1>
+    <h1 className="text-6xl">
       Hello <Hey></Hey>
     </h1>
   );
-}
-
-export enum TitleEnum {
-  wow = 1,
 }
